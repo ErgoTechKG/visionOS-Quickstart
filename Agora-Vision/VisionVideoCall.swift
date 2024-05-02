@@ -13,7 +13,7 @@ struct VisionVideoCall: View {
     var channel: String
 
     @ObservedObject private var agoraManager = AgoraManager(
-        appId: "<#appID#>", role: .audience
+        appId: "6c1fbe1e399c4aea9eeb6ba94c000779", role: .broadcaster
     )
 
     var body: some View {
