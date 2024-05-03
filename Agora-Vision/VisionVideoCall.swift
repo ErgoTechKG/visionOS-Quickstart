@@ -13,9 +13,9 @@ struct VisionVideoCall: View {
     var channel: String
 
     @ObservedObject private var agoraManager = AgoraManager(
-        appId: "6c1fbe1e399c4aea9eeb6ba94c000779", role: .broadcaster
+        appId: "6c1fbe1e399c4aea9eeb6ba94c000779", role: .audience
     )
-
+    
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns, spacing: 20) {

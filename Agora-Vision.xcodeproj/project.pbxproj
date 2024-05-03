@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0719ED682BE4FFBD00D41C3E /* agoraMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719ED672BE4FFBD00D41C3E /* agoraMobileApp.swift */; };
+		0719ED6A2BE4FFBD00D41C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719ED692BE4FFBD00D41C3E /* ContentView.swift */; };
+		0719ED6C2BE4FFBF00D41C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0719ED6B2BE4FFBF00D41C3E /* Assets.xcassets */; };
+		0719ED6F2BE4FFBF00D41C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0719ED6E2BE4FFBF00D41C3E /* Preview Assets.xcassets */; };
+		0719ED742BE5038300D41C3E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED732BE5038300D41C3E /* RealityKitContent */; };
+		0719ED762BE5038300D41C3E /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED752BE5038300D41C3E /* AIAEC */; };
+		0719ED782BE5038300D41C3E /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED772BE5038300D41C3E /* AINS */; };
+		0719ED7A2BE5038300D41C3E /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED792BE5038300D41C3E /* AudioBeauty */; };
+		0719ED7C2BE5038300D41C3E /* ClearVision in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED7B2BE5038300D41C3E /* ClearVision */; };
+		0719ED7E2BE5038300D41C3E /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED7D2BE5038300D41C3E /* ContentInspect */; };
+		0719ED802BE5038300D41C3E /* DRM in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED7F2BE5038300D41C3E /* DRM */; };
+		0719ED822BE5038300D41C3E /* FaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED812BE5038300D41C3E /* FaceDetection */; };
+		0719ED842BE5038300D41C3E /* ReplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED832BE5038300D41C3E /* ReplayKit */; };
+		0719ED862BE5038300D41C3E /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED852BE5038300D41C3E /* RtcBasic */; };
+		0719ED882BE5038300D41C3E /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED872BE5038300D41C3E /* SpatialAudio */; };
+		0719ED8A2BE5038300D41C3E /* VideoCodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED892BE5038300D41C3E /* VideoCodecDec */; };
+		0719ED8C2BE5038300D41C3E /* VideoCodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED8B2BE5038300D41C3E /* VideoCodecEnc */; };
+		0719ED8E2BE5038300D41C3E /* VirtualBackground in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED8D2BE5038300D41C3E /* VirtualBackground */; };
+		0719ED902BE5038300D41C3E /* VQA in Frameworks */ = {isa = PBXBuildFile; productRef = 0719ED8F2BE5038300D41C3E /* VQA */; };
+		0719ED912BE5038300D41C3E /* Agora-Vision.app in Resources */ = {isa = PBXBuildFile; fileRef = F3CE7B042AF9284C00A13BB8 /* Agora-Vision.app */; };
+		0719ED962BE503F600D41C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719ED952BE503F600D41C3E /* ContentView.swift */; };
+		0719ED972BE503F600D41C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719ED952BE503F600D41C3E /* ContentView.swift */; };
+		077BD8092BE407E40045D224 /* GameRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD8082BE407E40045D224 /* GameRoomView.swift */; };
 		F3CE7B0A2AF9284C00A13BB8 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = F3CE7B092AF9284C00A13BB8 /* RealityKitContent */; };
 		F3CE7B0C2AF9284C00A13BB8 /* Agora_VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE7B0B2AF9284C00A13BB8 /* Agora_VisionApp.swift */; };
 		F3CE7B0E2AF9284C00A13BB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE7B0D2AF9284C00A13BB8 /* ContentView.swift */; };
@@ -31,7 +54,24 @@
 		F3CE7B3E2B0247F800A13BB8 /* VisionVideoCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE7B3D2B0247F800A13BB8 /* VisionVideoCall.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0719ED922BE5038300D41C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CE7AFC2AF9284C00A13BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CE7B032AF9284C00A13BB8;
+			remoteInfo = "Agora-Vision";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0719ED652BE4FFBD00D41C3E /* agoraMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agoraMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0719ED672BE4FFBD00D41C3E /* agoraMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agoraMobileApp.swift; sourceTree = "<group>"; };
+		0719ED692BE4FFBD00D41C3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0719ED6B2BE4FFBF00D41C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0719ED6E2BE4FFBF00D41C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0719ED952BE503F600D41C3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		077BD8082BE407E40045D224 /* GameRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRoomView.swift; sourceTree = "<group>"; };
 		F3CE7B042AF9284C00A13BB8 /* Agora-Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agora-Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CE7B082AF9284C00A13BB8 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		F3CE7B0B2AF9284C00A13BB8 /* Agora_VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agora_VisionApp.swift; sourceTree = "<group>"; };
@@ -45,6 +85,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0719ED622BE4FFBD00D41C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0719ED902BE5038300D41C3E /* VQA in Frameworks */,
+				0719ED802BE5038300D41C3E /* DRM in Frameworks */,
+				0719ED8C2BE5038300D41C3E /* VideoCodecEnc in Frameworks */,
+				0719ED762BE5038300D41C3E /* AIAEC in Frameworks */,
+				0719ED742BE5038300D41C3E /* RealityKitContent in Frameworks */,
+				0719ED822BE5038300D41C3E /* FaceDetection in Frameworks */,
+				0719ED782BE5038300D41C3E /* AINS in Frameworks */,
+				0719ED7C2BE5038300D41C3E /* ClearVision in Frameworks */,
+				0719ED8A2BE5038300D41C3E /* VideoCodecDec in Frameworks */,
+				0719ED8E2BE5038300D41C3E /* VirtualBackground in Frameworks */,
+				0719ED7A2BE5038300D41C3E /* AudioBeauty in Frameworks */,
+				0719ED7E2BE5038300D41C3E /* ContentInspect in Frameworks */,
+				0719ED842BE5038300D41C3E /* ReplayKit in Frameworks */,
+				0719ED862BE5038300D41C3E /* RtcBasic in Frameworks */,
+				0719ED882BE5038300D41C3E /* SpatialAudio in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3CE7B012AF9284C00A13BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,11 +132,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0719ED662BE4FFBD00D41C3E /* agoraMobile */ = {
+			isa = PBXGroup;
+			children = (
+				0719ED672BE4FFBD00D41C3E /* agoraMobileApp.swift */,
+				0719ED692BE4FFBD00D41C3E /* ContentView.swift */,
+				0719ED6B2BE4FFBF00D41C3E /* Assets.xcassets */,
+				0719ED6D2BE4FFBF00D41C3E /* Preview Content */,
+			);
+			path = agoraMobile;
+			sourceTree = "<group>";
+		};
+		0719ED6D2BE4FFBF00D41C3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0719ED6E2BE4FFBF00D41C3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0719ED942BE503D700D41C3E /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				0719ED952BE503F600D41C3E /* ContentView.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
 		F3CE7AFB2AF9284C00A13BB8 = {
 			isa = PBXGroup;
 			children = (
+				0719ED942BE503D700D41C3E /* shared */,
 				F3CE7B062AF9284C00A13BB8 /* Agora-Vision */,
 				F3CE7B072AF9284C00A13BB8 /* Packages */,
+				0719ED662BE4FFBD00D41C3E /* agoraMobile */,
 				F3CE7B052AF9284C00A13BB8 /* Products */,
 				F3CE7B1E2B02474C00A13BB8 /* Frameworks */,
 			);
@@ -84,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE7B042AF9284C00A13BB8 /* Agora-Vision.app */,
+				0719ED652BE4FFBD00D41C3E /* agoraMobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +186,7 @@
 				F3CE7B0B2AF9284C00A13BB8 /* Agora_VisionApp.swift */,
 				F3CE7B0D2AF9284C00A13BB8 /* ContentView.swift */,
 				F3CE7B3D2B0247F800A13BB8 /* VisionVideoCall.swift */,
+				077BD8082BE407E40045D224 /* GameRoomView.swift */,
 				F3CE7B1B2B0246D600A13BB8 /* SwiftUIRtc */,
 				F3CE7B0F2AF9284D00A13BB8 /* Assets.xcassets */,
 				F3CE7B142AF9284D00A13BB8 /* Info.plist */,
@@ -137,6 +230,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0719ED642BE4FFBD00D41C3E /* agoraMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0719ED722BE4FFBF00D41C3E /* Build configuration list for PBXNativeTarget "agoraMobile" */;
+			buildPhases = (
+				0719ED612BE4FFBD00D41C3E /* Sources */,
+				0719ED622BE4FFBD00D41C3E /* Frameworks */,
+				0719ED632BE4FFBD00D41C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0719ED932BE5038300D41C3E /* PBXTargetDependency */,
+			);
+			name = agoraMobile;
+			packageProductDependencies = (
+				0719ED732BE5038300D41C3E /* RealityKitContent */,
+				0719ED752BE5038300D41C3E /* AIAEC */,
+				0719ED772BE5038300D41C3E /* AINS */,
+				0719ED792BE5038300D41C3E /* AudioBeauty */,
+				0719ED7B2BE5038300D41C3E /* ClearVision */,
+				0719ED7D2BE5038300D41C3E /* ContentInspect */,
+				0719ED7F2BE5038300D41C3E /* DRM */,
+				0719ED812BE5038300D41C3E /* FaceDetection */,
+				0719ED832BE5038300D41C3E /* ReplayKit */,
+				0719ED852BE5038300D41C3E /* RtcBasic */,
+				0719ED872BE5038300D41C3E /* SpatialAudio */,
+				0719ED892BE5038300D41C3E /* VideoCodecDec */,
+				0719ED8B2BE5038300D41C3E /* VideoCodecEnc */,
+				0719ED8D2BE5038300D41C3E /* VirtualBackground */,
+				0719ED8F2BE5038300D41C3E /* VQA */,
+			);
+			productName = agoraMobile;
+			productReference = 0719ED652BE4FFBD00D41C3E /* agoraMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F3CE7B032AF9284C00A13BB8 /* Agora-Vision */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3CE7B172AF9284D00A13BB8 /* Build configuration list for PBXNativeTarget "Agora-Vision" */;
@@ -178,9 +306,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
+					0719ED642BE4FFBD00D41C3E = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					F3CE7B032AF9284C00A13BB8 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -203,11 +334,22 @@
 			projectRoot = "";
 			targets = (
 				F3CE7B032AF9284C00A13BB8 /* Agora-Vision */,
+				0719ED642BE4FFBD00D41C3E /* agoraMobile */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0719ED632BE4FFBD00D41C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0719ED6F2BE4FFBF00D41C3E /* Preview Assets.xcassets in Resources */,
+				0719ED6C2BE4FFBF00D41C3E /* Assets.xcassets in Resources */,
+				0719ED912BE5038300D41C3E /* Agora-Vision.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3CE7B022AF9284C00A13BB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,13 +362,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0719ED612BE4FFBD00D41C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0719ED6A2BE4FFBD00D41C3E /* ContentView.swift in Sources */,
+				0719ED682BE4FFBD00D41C3E /* agoraMobileApp.swift in Sources */,
+				0719ED972BE503F600D41C3E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3CE7B002AF9284C00A13BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3CE7B0E2AF9284C00A13BB8 /* ContentView.swift in Sources */,
 				F3CE7B0C2AF9284C00A13BB8 /* Agora_VisionApp.swift in Sources */,
+				0719ED962BE503F600D41C3E /* ContentView.swift in Sources */,
 				F3CE7B3C2B02476200A13BB8 /* AgoraManager.swift in Sources */,
+				077BD8092BE407E40045D224 /* GameRoomView.swift in Sources */,
 				F3CE7B1D2B02471800A13BB8 /* AgoraVideoCanvasView.swift in Sources */,
 				F3CE7B3E2B0247F800A13BB8 /* VisionVideoCall.swift in Sources */,
 			);
@@ -234,7 +388,77 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0719ED932BE5038300D41C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CE7B032AF9284C00A13BB8 /* Agora-Vision */;
+			targetProxy = 0719ED922BE5038300D41C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0719ED702BE4FFBF00D41C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"agoraMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = DAW97TA9XR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergotech.agoraMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0719ED712BE4FFBF00D41C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"agoraMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = DAW97TA9XR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergotech.agoraMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F3CE7B152AF9284D00A13BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -409,6 +633,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0719ED722BE4FFBF00D41C3E /* Build configuration list for PBXNativeTarget "agoraMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0719ED702BE4FFBF00D41C3E /* Debug */,
+				0719ED712BE4FFBF00D41C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F3CE7AFF2AF9284C00A13BB8 /* Build configuration list for PBXProject "Agora-Vision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -441,6 +674,80 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0719ED732BE5038300D41C3E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		0719ED752BE5038300D41C3E /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AIAEC;
+		};
+		0719ED772BE5038300D41C3E /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINS;
+		};
+		0719ED792BE5038300D41C3E /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AudioBeauty;
+		};
+		0719ED7B2BE5038300D41C3E /* ClearVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ClearVision;
+		};
+		0719ED7D2BE5038300D41C3E /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ContentInspect;
+		};
+		0719ED7F2BE5038300D41C3E /* DRM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = DRM;
+		};
+		0719ED812BE5038300D41C3E /* FaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceDetection;
+		};
+		0719ED832BE5038300D41C3E /* ReplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ReplayKit;
+		};
+		0719ED852BE5038300D41C3E /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+		0719ED872BE5038300D41C3E /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = SpatialAudio;
+		};
+		0719ED892BE5038300D41C3E /* VideoCodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecDec;
+		};
+		0719ED8B2BE5038300D41C3E /* VideoCodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecEnc;
+		};
+		0719ED8D2BE5038300D41C3E /* VirtualBackground */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VirtualBackground;
+		};
+		0719ED8F2BE5038300D41C3E /* VQA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CE7B1A2AF9289400A13BB8 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VQA;
+		};
 		F3CE7B092AF9284C00A13BB8 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
